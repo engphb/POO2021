@@ -1,7 +1,12 @@
+import javax.swing.*;
+import java.awt.*;
+
 public class OlaMundo {
     //Método executável padrão do java
     public static void main(String[] args) {
-System.out.println("Hello World! \n My name is Francisco" );
+        JOptionPane.showMessageDialog(null, "Hello World");
+       JOptionPane.showMessageDialog(null, "Flamengo campeão");
     }
 
 }
+
