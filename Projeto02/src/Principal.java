@@ -36,9 +36,9 @@
 
                 Professor professor1 = new Professor();
                 // Atribuindo valores aos atributos do objeto.
-                professor1.setSalario(5000);
+                professor1.setSalario(800.50);
                 // Imprimir valores dos atributos do objeto professor1
-                System.out.println("Salario em R$: " + professor1.getSalario());
+                System.out.println("O salario é: " + professor1.getSalarioFormatado());
             }
 
         }
