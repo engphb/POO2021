@@ -28,7 +28,7 @@
                 Vendedor vendedor = new Vendedor("João", "000910529361",
                         2000.00, 0.15);
 
-                //Chamando o método validarCPF
+                //Chamando o método validarCPF (feito na classe Cliente)
 
                 //Instanciamento de 3 objetos do tipo Produto
                 Produto prod1 = new Produto("Notebook", 3000.00);
